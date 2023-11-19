@@ -1,0 +1,490 @@
+body {
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.button {
+  color: #08090a;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 5px 0;
+}
+.button:hover {
+  border: 1px solid rgb(238, 237, 237);
+  background-color: #fcfafa;
+}
+
+main {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+main .container-fluid {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#makeup .container {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+#makeup .container .text {
+  padding-top: 40px;
+  padding-bottom: 15px;
+  font-size: large;
+  text-align: center;
+}
+#makeup .container .images {
+  display: flex;
+  justify-content: space-between;
+}
+#makeup .container .images h4 {
+  text-align: center;
+  font-weight: 70;
+}
+#makeup .container .images .button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#makeup .container .images .card .fa-regular {
+  margin-left: 7px;
+  margin-top: 2px;
+}
+#makeup .container .images .card:hover img {
+  border: 1px solid rgb(238, 237, 237);
+  border-radius: 5px;
+}
+
+#women .container {
+  margin-top: 20px;
+  overflow-x: hidden;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#women .container .text {
+  padding-top: 40px;
+  padding-bottom: 15px;
+  font-size: large;
+  text-align: center;
+}
+#women .container .images1 {
+  display: flex;
+  width: 100%;
+}
+#women .container .images1 .img1:hover {
+  border: 1px solid rgb(111, 102, 85);
+  transform: translate(5px, 20px);
+}
+#women .container .images2 {
+  display: flex;
+}
+#women .container .images2 .img4:hover {
+  border: 1px solid rgb(111, 102, 85);
+  transform: translate(5px, 20px);
+}
+
+#like .container {
+  display: flex;
+  flex-direction: column;
+}
+#like .container .text {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  font-size: large;
+}
+#like .container .images {
+  display: flex;
+}
+#like .container .images .card {
+  margin-bottom: 8px;
+}
+#like .container .images .card img {
+  box-shadow: 3px 3px 2px rgb(235, 235, 236);
+}
+#like .container .images .card img:hover {
+  transform: scaleX(0.93);
+}
+#like .container .images .card h5 {
+  font-weight: 200;
+  padding: 7px 0;
+}
+
+#earring .container {
+  margin: 40px 0;
+  display: flex;
+  background-color: rgb(251, 252, 254);
+  padding: 20px 0;
+  border: 1px solid rgb(238, 237, 237);
+}
+#earring .container .images {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+#earring .container .images img {
+  margin-bottom: 5px;
+  margin-left: 20px;
+  height: auto;
+}
+#earring .container .images .img2:hover {
+  margin-right: -100%;
+}
+#earring .container .permbajtja {
+  display: flex;
+}
+#earring .container .permbajtja h5, #earring .container .permbajtja h3 {
+  margin: 3px 0;
+}
+#earring .container .permbajtja h5 {
+  font-weight: 100;
+}
+#earring .container .permbajtja .buttons {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+#earring .container .permbajtja .buttons .button {
+  padding: 10px;
+  border: 1px solid rgb(238, 237, 237);
+  background-color: rgb(255, 255, 255);
+  margin-top: 5px;
+  font-size: 15px;
+  text-align: center;
+}
+#earring .container .permbajtja .buttons .button:hover {
+  padding: 12px 5px;
+}
+#earring .container .permbajtja .contact {
+  margin: 30px 0;
+  border: 1px solid rgb(238, 237, 237);
+  padding: 20px 10px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+#earring .container .permbajtja .contact .fa-solid {
+  margin-right: 10px;
+  margin-top: 2px;
+}
+#earring .container .permbajtja .description {
+  margin-top: 20px;
+  border: 1px solid rgb(238, 237, 237);
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 7px;
+}
+#earring .container .permbajtja .description ul {
+  margin-left: 30px;
+}
+
+#explore {
+  border: 1px solid rgb(238, 237, 237);
+  padding: 30px 0;
+  margin-top: 50px;
+}
+#explore .container-fluid ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+#explore .container-fluid ul .explore {
+  color: #08090a;
+  font-weight: bold;
+}
+#explore .container-fluid ul .explore:hover {
+  text-decoration: none;
+}
+#explore .container-fluid ul li a {
+  text-decoration: none;
+}
+#explore .container-fluid a {
+  color: rgb(160, 160, 160);
+}
+#explore .container-fluid a:hover {
+  color: #08090a;
+  text-decoration: underline;
+}
+
+#dream .container {
+  display: flex;
+  flex-direction: column;
+}
+#dream .container .text {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  font-size: large;
+}
+#dream .container .main {
+  display: flex;
+}
+
+footer .container {
+  border: 1px solid rgb(238, 237, 237);
+  background-color: rgb(251, 252, 254);
+}
+footer .container .footer {
+  display: flex;
+}
+footer .container .footer .client-services ul {
+  padding-left: 20px;
+}
+footer .container .footer .client-services a {
+  text-decoration: none;
+  color: rgb(160, 160, 160);
+  text-decoration: underline;
+}
+footer .container .footer .client-services a:hover {
+  color: #08090a;
+}
+footer .container .footer .house ul {
+  list-style-type: none;
+  margin-top: 10px;
+  padding-left: 8px;
+}
+footer .container .footer .house a {
+  text-decoration: none;
+  color: rgb(160, 160, 160);
+  text-decoration: underline;
+}
+footer .container .footer .house a .fa-brands {
+  color: #08090a;
+  padding-right: 8px;
+}
+footer .container .footer .house a:hover {
+  color: #08090a;
+}
+
+@media screen and (min-width: 800px) {
+  label[for=toggle-menu],
+  input[type=checkbox] {
+    display: none;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .logo img {
+    height: 60px;
+    margin-right: 30px;
+  }
+  header ul {
+    display: flex;
+    list-style-type: none;
+  }
+  header ul li {
+    margin: 0px 10px;
+    position: relative;
+  }
+  header a {
+    font-size: 14px;
+    color: rgb(160, 160, 160);
+    font-weight: 300;
+    transition: all 0.4s ease-in-out;
+    padding: 20px 0px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  header a:hover {
+    color: #08090a;
+  }
+  #makeup .container .images {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 10px 0;
+  }
+  #makeup .container h3 {
+    text-align: center;
+  }
+  #women .container .images1 {
+    flex-direction: row;
+  }
+  #women .container .images2 {
+    flex-direction: row;
+  }
+  #like .container .images {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #like .container .images .card {
+    width: 16%;
+  }
+  #earring .container {
+    flex-direction: row;
+  }
+  #earring .container .permbajtja {
+    flex-direction: column;
+    margin-right: 90px;
+    margin-bottom: 40px;
+    width: 20%;
+  }
+  #dream .container {
+    width: 100%;
+  }
+  #dream .container .main {
+    width: 100%;
+    overflow: hidden;
+    flex-direction: row;
+  }
+  #dream .container .main .text {
+    width: 35%;
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-right: 10px;
+  }
+  #dream .container .main .video {
+    width: 60%;
+  }
+  #explore .container-fluid {
+    width: 80%;
+    margin-left: 130px;
+  }
+  footer .container .footer {
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 30px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  * {
+    overflow-x: hidden;
+  }
+  .container {
+    width: 90%;
+  }
+  input[type=checkbox] {
+    display: none;
+  }
+  label[for=toggle-menu] {
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
+  .toggle-menu:checked + nav {
+    display: block;
+  }
+  header {
+    height: auto;
+    padding: 20px 0px;
+    flex-direction: column;
+  }
+  header .logo img {
+    height: 45px;
+  }
+  header .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  header nav {
+    display: none;
+    margin-top: 20px;
+  }
+  header ul {
+    flex-direction: column;
+    list-style-type: none;
+  }
+  header ul li ul {
+    display: none;
+  }
+  header ul li:hover .submenu {
+    display: block;
+  }
+  header a {
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+    margin-left: 10px;
+  }
+  header a:hover {
+    color: #08090a;
+  }
+  #makeup .container .images {
+    flex-direction: column;
+  }
+  #makeup .container .images .card {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+    padding-left: 33px;
+  }
+  #makeup .container .images .card img {
+    max-width: 100%;
+  }
+  #makeup .container .images .text {
+    padding-top: 40px;
+    padding-bottom: 15px;
+    font-size: large;
+    text-align: center;
+  }
+  #makeup .container .images .text h3 {
+    text-align: center;
+    margin: 10px;
+  }
+  #women .container .images1 {
+    padding-left: 33px;
+  }
+  #women .container .images2 {
+    padding-left: 33px;
+  }
+  #like .container .images {
+    flex-direction: column;
+  }
+  #like .container .images .card {
+    padding-left: 33px;
+  }
+  #like .container .images .card p, #like .container .images .card h5 {
+    text-align: center;
+  }
+  #earring .container {
+    margin-left: 13px;
+    flex-direction: column;
+  }
+  #earring .container .images {
+    align-items: center;
+  }
+  #earring .container .permbajtja {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  #dream .container .main {
+    flex-direction: column;
+    padding-left: 33px;
+  }
+  #explore .container-fluid ul {
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+  }
+  #explore .container-fluid ul .explore {
+    padding: 10px;
+  }
+  footer .container {
+    margin-left: 23px;
+  }
+  footer .container .footer {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */

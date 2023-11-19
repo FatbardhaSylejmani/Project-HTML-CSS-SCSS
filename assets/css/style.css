@@ -136,9 +136,6 @@ main .container-fluid {
   margin-left: 20px;
   height: auto;
 }
-#earring .container .images .img2:hover {
-  margin-right: -100%;
-}
 #earring .container .permbajtja {
   display: flex;
 }
@@ -230,10 +227,6 @@ main .container-fluid {
   display: flex;
 }
 
-footer .container {
-  border: 1px solid rgb(238, 237, 237);
-  background-color: rgb(251, 252, 254);
-}
 footer .container .footer {
   display: flex;
 }
@@ -329,6 +322,8 @@ footer .container .footer .house a:hover {
   }
   #earring .container {
     flex-direction: row;
+    align-items: center;
+    margin-left: 20px;
   }
   #earring .container .permbajtja {
     flex-direction: column;
@@ -356,6 +351,10 @@ footer .container .footer .house a:hover {
   #explore .container-fluid {
     width: 80%;
     margin-left: 130px;
+  }
+  footer .container {
+    border: 1px solid rgb(238, 237, 237);
+    background-color: rgb(251, 252, 254);
   }
   footer .container .footer {
     flex-direction: row;
@@ -418,12 +417,12 @@ footer .container .footer .house a:hover {
   }
   #makeup .container .images {
     flex-direction: column;
+    margin-left: 40px;
   }
   #makeup .container .images .card {
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 40px;
-    padding-left: 33px;
   }
   #makeup .container .images .card img {
     max-width: 100%;
@@ -439,10 +438,10 @@ footer .container .footer .house a:hover {
     margin: 10px;
   }
   #women .container .images1 {
-    padding-left: 33px;
+    padding-left: 40px;
   }
   #women .container .images2 {
-    padding-left: 33px;
+    padding-left: 40px;
   }
   #like .container .images {
     flex-direction: column;
@@ -454,17 +453,22 @@ footer .container .footer .house a:hover {
     text-align: center;
   }
   #earring .container {
-    margin-left: 13px;
+    margin-left: 20px;
     flex-direction: column;
   }
   #earring .container .images {
     align-items: center;
+    margin-left: 20px;
   }
   #earring .container .permbajtja {
     width: 100%;
     display: flex;
     flex-direction: column;
     padding: 20px;
+  }
+  #dream .container .text h3 {
+    text-align: center;
+    margin-left: 30px;
   }
   #dream .container .main {
     flex-direction: column;
@@ -478,8 +482,11 @@ footer .container .footer .house a:hover {
   #explore .container-fluid ul .explore {
     padding: 10px;
   }
+  footer {
+    align-items: center;
+  }
   footer .container {
-    margin-left: 23px;
+    align-items: center;
   }
   footer .container .footer {
     flex-direction: column;
